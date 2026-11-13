@@ -1,0 +1,18 @@
+# Merge with existing project ignore rules; do not replace them wholesale.
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+*.log
+.DS_Store
+Thumbs.db
+# Add the selected Prisma generated-client output path after version/config selection.
+src/generated/prisma/
+.pnpm-store/
+.local/
