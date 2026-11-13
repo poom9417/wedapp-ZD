@@ -1,0 +1,62 @@
+[
+  {
+    "name": "prisma",
+    "requested": "7.10.1",
+    "version": "7.10.1",
+    "engines": {
+      "node": "^20.19 || ^22.12 || >=24.0"
+    },
+    "peers": {
+      "typescript": ">=5.4.0",
+      "better-sqlite3": ">=9.0.0"
+    }
+  },
+  {
+    "name": "typescript",
+    "requested": "5.9.3",
+    "version": "5.9.3",
+    "engines": {
+      "node": ">=14.17"
+    },
+    "peers": null
+  },
+  {
+    "name": "eslint",
+    "requested": "9.39.4",
+    "version": "9.39.4",
+    "engines": {
+      "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+    },
+    "peers": {
+      "jiti": "*"
+    }
+  },
+  {
+    "name": "pnpm",
+    "requested": "11.25.0",
+    "version": "11.25.0",
+    "engines": {
+      "node": ">=22.13"
+    },
+    "peers": null
+  },
+  {
+    "name": "@typescript-eslint/parser",
+    "requested": "latest",
+    "version": "8.72.2",
+    "engines": {
+      "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+    },
+    "peers": {
+      "eslint": "^8.57.0 || ^9.0.0 || ^10.0.0",
+      "typescript": ">=4.8.4 <6.1.0"
+    }
+  },
+  {
+    "name": "@types/node",
+    "requested": "stable 24.x",
+    "version": "24.19.2",
+    "engines": null,
+    "peers": {}
+  }
+]
