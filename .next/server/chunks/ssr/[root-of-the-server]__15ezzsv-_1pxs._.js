@@ -1,0 +1,3 @@
+module.exports=[18622,(a,b,c)=>{b.exports=a.x("next/dist/compiled/next-server/app-page-turbo.runtime.prod.js",()=>require("next/dist/compiled/next-server/app-page-turbo.runtime.prod.js"))},53131,(a,b,c)=>{"use strict";b.exports=a.r(18622)},82591,(a,b,c)=>{"use strict";b.exports=a.r(53131).vendored["react-rsc"].ReactJsxRuntime},27572,a=>{"use strict";var b=a.i(82591);a.s(["default",0,function({children:a}){return(0,b.jsx)("html",{lang:"th",children:(0,b.jsx)("body",{children:a})})},"metadata",0,{title:"wedapp-ZD | จุดเริ่มต้นของระบบ",description:"พื้นที่เริ่มต้นของ wedapp-ZD สำหรับเตรียมระบบและตรวจสอบการทำงาน",robots:{index:!1,follow:!1}}])},50645,function(a){a.n(a.i(27572))}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__15ezzsv-_1pxs._.js.map
