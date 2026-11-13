@@ -1,0 +1,11 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// No models until identity/permissions and the first use case have been agreed.
+// This file does not create a database. No migrations or seeds exist in M1.

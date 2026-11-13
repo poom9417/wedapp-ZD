@@ -1,0 +1,42 @@
+{
+  "name": "wedapp-zd",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "engines": { "node": ">=24.22.1 <25", "pnpm": "11.25.0" },
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1",
+    "typecheck": "next typegen && tsc --noEmit",
+    "lint": "eslint . --max-warnings=0",
+    "test": "tsx --conditions=react-server --test tests/unit/*.test.ts",
+    "test:smoke": "node --test tests/smoke/*.test.mjs",
+    "db:validate": "prisma validate",
+    "db:generate": "prisma generate",
+    "check": "pnpm typecheck && pnpm lint && pnpm test && pnpm db:validate && pnpm build"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "7.10.1",
+    "@prisma/client": "7.10.1",
+    "next": "16.4.6",
+    "node-appwrite": "31.2.0",
+    "pg": "8.23.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "server-only": "0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "@types/pg": "8.23.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "dotenv": "18.0.10",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.4.6",
+    "prisma": "7.10.1",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  }
+}
