@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 64, "column": 0}, "map": {"version":3,"sources":["file:///D:/Github/wedapp-ZD/src/app/api/health/route.ts"],"sourcesContent":["export const runtime = \"nodejs\";\nexport const dynamic = \"force-dynamic\";\n\n// Liveness deliberately has no imports, environment validation or network calls.\nexport function GET() {\n  return Response.json({ status: \"ok\" }, { headers: { \"Cache-Control\": \"no-store\" } });\n}\n"],"names":["runtime","dynamic","GET","Response","json","status","headers"],"mappings":";;;;;;;;AAAO,MAAMA,UAAU;AAChB,MAAMC,UAAU;AAGhB,SAASC;IACd,OAAOC,SAASC,IAAI,CAAC;QAAEC,QAAQ;IAAK,GAAG;QAAEC,SAAS;YAAE,iBAAiB;QAAW;IAAE;AACpF"}}]
-}
